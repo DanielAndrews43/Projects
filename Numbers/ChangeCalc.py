@@ -1,10 +1,11 @@
-def changeCalc(money):
+def changeCalc(cost,paid):
     '''
     money = positive float
     
     returns least amount of coins to return
     [100s,50s,20s,10s,5s,1s,quarters,dimes,nickels,pennies]
     '''
+    money = cost - paid
     round(money,2)
     types = (100,50,20,10,5,1,.25,.1,.05,.01)
     amount = [0,0,0,0,0,0,0,0,0,0]
