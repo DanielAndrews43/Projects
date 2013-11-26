@@ -4,7 +4,7 @@ def countVowels(word):
     returns the amount of vowels and the sum of the place in the alphabet
     '''
     word.lower()
-    vowelList = ['a','e','i','o','u']
+    vowelList = 'aeiou'
     vowelNumber = {'a':1,'e':5,'i':9,'o':15,'u':21}
     vowels = 0
     vowelWorth = 0
